@@ -9,10 +9,11 @@ Each generated line carries a policy because QX requires one. Surge-only
 options (no-resolve, extended-matching, pre-matching) are dropped. Rule
 types QX cannot express are omitted entirely.
 
-The two lists converted here are:
+The lists converted here are:
 
 - https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Global.list
 - https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Domestic.list
+- https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/ApplePush.list
 """
 
 from __future__ import annotations
@@ -78,6 +79,12 @@ LISTS = (
         "policy": "Domestic",
         "source": "https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Domestic.list",
         "output": ROOT / "Ruleset" / "Domestic.list",
+    },
+    {
+        "name": "ApplePush",
+        "policy": "ApplePush",
+        "source": "https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/ApplePush.list",
+        "output": ROOT / "Ruleset" / "ApplePush.list",
     },
 )
 
