@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/wsc82/QuantumultX/main/wsc82.conf
 
 ## 规则
 
-`Ruleset/Global.list` 与 `Ruleset/Domestic.list` 是 Quantumult X 分流规则。两份列表由 `scripts/surge_to_qx.py` 从 [wsc82/Surge](https://github.com/wsc82/Surge) 的同名规则每天自动转换，也可以在 Actions 里手动触发。请不要直接改这两份文件；增删规则请到 Surge 仓库修改，下次同步会带过来。
+`Ruleset/Global.list`、`Ruleset/Domestic.list` 与 `Ruleset/ApplePush.list` 是 Quantumult X 分流规则。三份列表由 `scripts/surge_to_qx.py` 从 [wsc82/Surge](https://github.com/wsc82/Surge) 的同名规则每天自动转换，也可以在 Actions 里手动触发。请不要直接改这三份文件；增删规则请到 Surge 仓库修改，下次同步会带过来。
 
 `Global.list` 是境外代理合集（ProxyLite、US、Telegram、YouTube 等合并）
 
@@ -26,6 +26,12 @@ https://raw.githubusercontent.com/wsc82/QuantumultX/main/Ruleset/Global.list
 
 ```
 https://raw.githubusercontent.com/wsc82/QuantumultX/main/Ruleset/Domestic.list
+```
+
+`ApplePush.list` 是 Apple 推送服务（APNs）域名与官方 IP 段
+
+```
+https://raw.githubusercontent.com/wsc82/QuantumultX/main/Ruleset/ApplePush.list
 ```
 
 `Ruleset/Catchall.list` 只给 Quantumult X 用，而且必须放在 `[filter_remote]` 的最后一条，以 `force-policy=Final`、`opt-parser=false` 加载。它用一条 `host-keyword, ., Final` 把前面规则集没有命中的域名全部交给 Final，不再做本地 DNS 查询，避免 DNS 泄漏。
