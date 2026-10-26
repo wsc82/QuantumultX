@@ -1,0 +1,3 @@
+# 仅供 Quantumult X 使用。必须作为 [filter_remote] 的最后一条，并以 force-policy=Final、opt-parser=false 加载。
+# 把前面规则集未匹配的域名全部交给 Final，不再做本地 DNS 查询，避免 DNS 泄漏。
+host-keyword, ., Final
