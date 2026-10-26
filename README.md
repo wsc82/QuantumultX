@@ -14,7 +14,12 @@ https://raw.githubusercontent.com/wsc82/QuantumultX/main/wsc82.conf
 
 ## 规则
 
-`Global.list` 与 `Domestic.list` 来自 [wsc82/Surge](https://github.com/wsc82/Surge)。
+`Ruleset/Global.list` 与 `Ruleset/Domestic.list` 是 Quantumult X 分流规则。`Global.list` 是境外代理合集（ProxyLite、US、Telegram、YouTube 等合并），`Domestic.list` 是国内网站、国内 CDN 与 Apple 服务。两份列表由 `scripts/surge_to_qx.py` 从 [wsc82/Surge](https://github.com/wsc82/Surge) 的同名规则每天自动转换，也可以在 Actions 里手动触发。请不要直接改这两份文件；增删规则请到 Surge 仓库修改，下次同步会带过来。
+
+```
+https://raw.githubusercontent.com/wsc82/QuantumultX/main/Ruleset/Global.list
+https://raw.githubusercontent.com/wsc82/QuantumultX/main/Ruleset/Domestic.list
+```
 
 `Ruleset/Catchall.list` 只给 Quantumult X 用，而且必须放在 `[filter_remote]` 的最后一条，以 `force-policy=Final`、`opt-parser=false` 加载。它用一条 `host-keyword, ., Final` 把前面规则集没有命中的域名全部交给 Final，不再做本地 DNS 查询，避免 DNS 泄漏。
 

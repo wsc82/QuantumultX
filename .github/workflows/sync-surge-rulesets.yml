@@ -1,0 +1,36 @@
+name: Sync Surge rulesets
+
+on:
+  schedule:
+    # 00:30 Asia/Shanghai, daily.
+    - cron: "30 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-surge-rulesets
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Convert Surge rulesets
+        run: python3 scripts/surge_to_qx.py
+
+      - name: Commit and push if changed
+        run: |
+          git add -- Ruleset/Global.list Ruleset/Domestic.list
+          if git diff --cached --quiet; then
+            echo "No ruleset changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync Global and Domestic rulesets from Surge"
+          git push
