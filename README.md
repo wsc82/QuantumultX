@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/wsc82/QuantumultX/main/wsc82.conf
 
 `Ruleset/Global.list`、`Ruleset/Domestic.list` 与 `Ruleset/ApplePush.list` 是 Quantumult X 分流规则。三份列表由 `scripts/surge_to_qx.py` 从 [wsc82/Surge](https://github.com/wsc82/Surge) 的同名规则每天自动转换，也可以在 Actions 里手动触发。请不要直接改这三份文件；增删规则请到 Surge 仓库修改，下次同步会带过来。
 
-`Global.list` 是境外代理合集（ProxyLite、US、Telegram、YouTube 等合并）
+`Global.list` 是境外网站与服务的代理合集
 
 ```
 https://raw.githubusercontent.com/wsc82/QuantumultX/main/Ruleset/Global.list
