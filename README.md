@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/wsc82/QuantumultX/main/Ruleset/Domestic.list
 https://raw.githubusercontent.com/wsc82/QuantumultX/main/Ruleset/ApplePush.list
 ```
 
-`YouTube.list` 是 YouTube 与 Google 视频 CDN
+`YouTube.list` 是 YouTube 视频、图片、短链和 App 接口
 
 ```
 https://raw.githubusercontent.com/wsc82/QuantumultX/main/Ruleset/YouTube.list
