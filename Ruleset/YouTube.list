@@ -1,0 +1,29 @@
+# ============================================================
+# 自动生成，请勿手工修改。
+# 由 scripts/surge_to_qx.py 从 wsc82/Surge 转换而来：
+# https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/YouTube.list
+# 增删规则请改 Surge 仓库；GitHub Actions 每天同步到这里。
+# ============================================================
+
+# ============================================================
+# 名称：YouTube.list
+# 说明：YouTube 与 Google 视频 CDN
+# 策略：YouTube
+# 规则：12 条
+# 更新：2026-10-26
+# 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/YouTube.list
+# ============================================================
+
+# > YouTube
+host-suffix, googlevideo.com, YouTube
+host-suffix, gvt0.com, YouTube
+host-suffix, gvt1.com, YouTube
+host-suffix, gvt2.com, YouTube
+host-suffix, gvt3.com, YouTube
+host-suffix, oauth2.googleapis.com, YouTube
+host-suffix, oauthaccountmanager.googleapis.com, YouTube
+host-suffix, youtu.be, YouTube
+host-suffix, yt.be, YouTube
+host-suffix, yt3.ggpht.com, YouTube
+host-suffix, ytimg.com, YouTube
+host-keyword, youtube, YouTube
