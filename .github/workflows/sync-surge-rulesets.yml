@@ -25,12 +25,12 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git add -- Ruleset/Global.list Ruleset/Domestic.list Ruleset/ApplePush.list
+          git add -- Ruleset/Global.list Ruleset/Domestic.list Ruleset/ApplePush.list Ruleset/YouTube.list Ruleset/Telegram.list
           if git diff --cached --quiet; then
             echo "No ruleset changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Sync Global, Domestic, and ApplePush rulesets from Surge"
+          git commit -m "Sync Global, Domestic, ApplePush, YouTube, and Telegram rulesets from Surge"
           git push

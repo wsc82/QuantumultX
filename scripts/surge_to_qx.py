@@ -14,6 +14,8 @@ The lists converted here are:
 - https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Global.list
 - https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Domestic.list
 - https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/ApplePush.list
+- https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/YouTube.list
+- https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Telegram.list
 """
 
 from __future__ import annotations
@@ -85,6 +87,18 @@ LISTS = (
         "policy": "ApplePush",
         "source": "https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/ApplePush.list",
         "output": ROOT / "Ruleset" / "ApplePush.list",
+    },
+    {
+        "name": "YouTube",
+        "policy": "YouTube",
+        "source": "https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/YouTube.list",
+        "output": ROOT / "Ruleset" / "YouTube.list",
+    },
+    {
+        "name": "Telegram",
+        "policy": "Telegram",
+        "source": "https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Telegram.list",
+        "output": ROOT / "Ruleset" / "Telegram.list",
     },
 )
 
