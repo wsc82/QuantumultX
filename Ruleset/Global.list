@@ -5,19 +5,9 @@
 # 增删规则请改 Surge 仓库；GitHub Actions 每天同步到这里。
 # ============================================================
 
-# ============================================================
-# 名称：Global.list
-# 说明：代理合集
-# 策略：Self (surge mac/ios)
-# 规则：362 条
-# 更新：2026-10-26
-# 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Global.list
-# ============================================================
-
 # > 自用 & 其他
 host, docs.dmit.io, Global
 host, tagss.pro, Global
-host, vscode.download.prss.microsoft.com, Global
 host-suffix, 1024.day, Global
 host-suffix, 1password.com, Global
 host-suffix, 911997.xyz, Global
@@ -45,16 +35,10 @@ host-suffix, c-spanvideo.org, Global
 host-suffix, cdn.jsdelivr.net, Global
 host-suffix, civiccomputing.com, Global
 host-suffix, civitai.com, Global
-host-suffix, cloudflare.com, Global
-host-suffix, cloudflareinsights.com, Global
-host-suffix, cloudflarestorage.com, Global
 host-suffix, cloudfront.net, Global
 host-suffix, combot.org, Global
 host-suffix, dextools.io, Global
 host-suffix, docs.new, Global
-host-suffix, dowjones.com, Global
-host-suffix, dowjones.io, Global
-host-suffix, dowjoneson.com, Global
 host-suffix, duyaoss.com, Global
 host-suffix, dw.com, Global
 host-suffix, dynamicyield.com, Global
@@ -70,8 +54,6 @@ host-suffix, gravatar.com, Global
 host-suffix, hk01.com, Global
 host-suffix, hostloc.com, Global
 host-suffix, huarun.win, Global
-host-suffix, imgur.com, Global
-host-suffix, imgurinc.com, Global
 host-suffix, immersivetranslate.com, Global
 host-suffix, infogram.com, Global
 host-suffix, invisioncic.com, Global
@@ -87,8 +69,6 @@ host-suffix, mangmang.run, Global
 host-suffix, matters.town, Global
 host-suffix, medium.com, Global
 host-suffix, metacubex.one, Global
-host-suffix, mmov.app, Global
-host-suffix, mmov.io, Global
 host-suffix, nektony.com, Global
 host-suffix, newsapi.sphdigital.com, Global
 host-suffix, nodeseek.com, Global
@@ -106,15 +86,9 @@ host-suffix, pincong.rocks, Global
 host-suffix, pm.me, Global
 host-suffix, prcleader.org, Global
 host-suffix, privacy-mgmt.com, Global
-host-suffix, proton.me, Global
-host-suffix, protonmail.ch, Global
-host-suffix, protonmail.com, Global
-host-suffix, protonstatus.com, Global
 host-suffix, ptt.cc, Global
 host-suffix, pub.network, Global
 host-suffix, rc-backup.com, Global
-host-suffix, rfi.fr, Global
-host-suffix, rfi.my, Global
 host-suffix, rocketgirls.space, Global
 host-suffix, rsshub.app, Global
 host-suffix, sharethis.com, Global
@@ -124,9 +98,6 @@ host-suffix, sports-interactive.com, Global
 host-suffix, stash.ws, Global
 host-suffix, stheadline.com, Global
 host-suffix, storm.mg, Global
-host-suffix, stripe.com, Global
-host-suffix, stripe.network, Global
-host-suffix, stripecdn.com, Global
 host-suffix, theinitium.com, Global
 host-suffix, themoviedb.org, Global
 host-suffix, thenewslens.com, Global
@@ -142,64 +113,107 @@ host-suffix, vlongx.com, Global
 host-suffix, voachinese.com, Global
 host-suffix, washingtonpost.com, Global
 host-suffix, whitecoatwaste.org, Global
-host-suffix, wsj.com, Global
-host-suffix, wsj.net, Global
 host-suffix, xiaobaotv.com, Global
 host-suffix, yfsp.tv, Global
 host-suffix, z-lib.sk, Global
 host-suffix, zaobao.com, Global
 host-suffix, zdz.best, Global
+host-keyword, cloudflare, Global
+host-keyword, dowjones, Global
+host-keyword, imgur, Global
+host-keyword, mmov, Global
+host-keyword, proton, Global
+host-keyword, rfi, Global
+host-keyword, stripe, Global
+host-keyword, wsj, Global
 
 # > BBC
+host, vod-dash-ww-live.akamaized.net, Global
+host, vod-thumb-ww-live.akamaized.net, Global
+host-suffix, bbc.co, Global
+host-suffix, bbc.co.uk, Global
 host-suffix, bbc.com, Global
+host-suffix, bbc.in, Global
+host-suffix, bbc.net.uk, Global
+host-suffix, bbcchinese.com, Global
+host-suffix, bbci.co, Global
+host-suffix, bbci.co.uk, Global
+host-suffix, bbcmedia.co.uk, Global
+host-suffix, bbcpersian.com, Global
+host-suffix, bbcverticals.com, Global
+host-suffix, bidi.net.uk, Global
+host-keyword, bbcfmt, Global
+host-keyword, uk-live, Global
 
 # > Bitwarden
-host-suffix, bitwarden.com, Global
-host-suffix, bitwarden.net, Global
+host-keyword, bitwarden, Global
 
 # > Coder 开发 / 编程
 host-suffix, comfy.org, Global
-host-suffix, huggingface.co, Global
+host-suffix, hf.co, Global
 host-suffix, pycon.org, Global
 host-suffix, pypa.io, Global
-host-suffix, pypi.io, Global
-host-suffix, pypi.org, Global
-host-suffix, python.org, Global
-host-suffix, pythonhosted.org, Global
+host-keyword, huggingface, Global
+host-keyword, pypi, Global
+host-keyword, python, Global
 
 # > Cursor
-host-suffix, cursor-cdn.com, Global
-host-suffix, cursor.com, Global
-host-suffix, cursor.sh, Global
-host-suffix, cursorapi.com, Global
-host-suffix, cursorvm.com, Global
 host-suffix, vercel-storage.com, Global
+host-keyword, cursor, Global
 
 # > Dropbox
-host-suffix, dropbox.com, Global
-host-suffix, dropboxapi.com, Global
-host-suffix, dropboxstatic.com, Global
-host-suffix, dropboxusercontent.com, Global
+host-suffix, db.tt, Global
+host-suffix, paper-attachments.s3.amazonaws.com, Global
+host-keyword, dropbox, Global
 
 # > Facebook
+host-suffix, accountkit.com, Global
+host-suffix, crowdtangle.com, Global
+host-suffix, draftjs.org, Global
 host-suffix, fb.com, Global
 host-suffix, fb.me, Global
+host-suffix, fbmessenger.com, Global
+host-suffix, fbsbx.com, Global
+host-suffix, fbsbx.net, Global
+host-suffix, hacklang.org, Global
+host-suffix, ig.me, Global
+host-suffix, igcdn.com, Global
+host-suffix, igtv.com, Global
+host-suffix, instagr.am, Global
+host-suffix, internet.org, Global
+host-suffix, m.me, Global
+host-suffix, messenger.com, Global
+host-suffix, messengerdevelopers.com, Global
+host-suffix, meta.com, Global
+host-suffix, reactjs.org, Global
+host-suffix, wa.me, Global
+host-suffix, workplace.com, Global
 host-keyword, facebook, Global
 host-keyword, fbcdn, Global
-ip-cidr, 31.13.24.0/21, Global
-ip-cidr, 31.13.64.0/18, Global
-ip-cidr, 45.64.40.0/22, Global
-ip-cidr, 66.220.144.0/20, Global
-ip-cidr, 69.63.176.0/20, Global
-ip-cidr, 69.171.224.0/19, Global
-ip-cidr, 74.119.76.0/22, Global
-ip-cidr, 103.4.96.0/22, Global
+host-keyword, whatsapp, Global
+ip-cidr, 108.168.176.192/26, Global
+ip-cidr, 108.168.177.0/27, Global
+ip-cidr, 108.168.180.96/27, Global
+ip-cidr, 108.168.254.65/32, Global
+ip-cidr, 108.168.255.224/32, Global
+ip-cidr, 108.168.255.227/32, Global
+ip-cidr, 108.177.8.0/21, Global
+ip-cidr, 119.235.224.0/24, Global
+ip-cidr, 119.235.232.0/24, Global
+ip-cidr, 119.235.236.0/23, Global
 ip-cidr, 129.134.0.0/17, Global
 ip-cidr, 157.240.0.0/17, Global
+ip-cidr, 169.45.248.118/32, Global
 ip-cidr, 173.252.64.0/18, Global
-ip-cidr, 179.60.192.0/22, Global
-ip-cidr, 185.60.216.0/22, Global
-ip-cidr, 204.15.20.0/22, Global
+ip-cidr, 3.123.36.126/32, Global
+ip-cidr, 31.13.64.0/18, Global
+ip-cidr, 35.157.215.84/32, Global
+ip-cidr, 35.157.217.255/32, Global
+ip-cidr, 52.58.209.134/32, Global
+ip-cidr, 54.162.243.80/32, Global
+ip-cidr, 54.173.34.141/32, Global
+ip-cidr, 54.235.23.242/32, Global
+ip-cidr, 54.93.124.31/32, Global
 
 # > FOX
 host-suffix, fox.com, Global
@@ -210,18 +224,60 @@ host-suffix, foxsports.com, Global
 host-suffix, foxtv.com, Global
 
 # > GitHub
+host-suffix, dependabot.com, Global
+host-suffix, ghcr.io, Global
+host-suffix, myoctocat.com, Global
+host-suffix, npmjs.com, Global
+host-suffix, npmjs.org, Global
+host-suffix, opensource.guide, Global
+host-suffix, repo.new, Global
 host-keyword, github, Global
 
 # > Google
-host-suffix, appspot.com, Global
+host, voice.telephony.goog, Global
+host-suffix, 1e100.net, Global
+host-suffix, 2mdn.net, Global
+host-suffix, abc.xyz, Global
+host-suffix, amp.dev, Global
+host-suffix, ampproject.com, Global
+host-suffix, android.com, Global
+host-suffix, androidtv.com, Global
 host-suffix, blogger.com, Global
-host-suffix, c.gle, Global
+host-suffix, chrome.com, Global
+host-suffix, chromebook.com, Global
+host-suffix, chromecast.com, Global
+host-suffix, chromium.org, Global
+host-suffix, dart.dev, Global
+host-suffix, deepmind.com, Global
+host-suffix, doubleclick.com, Global
+host-suffix, doubleclick.net, Global
+host-suffix, firebaseapp.com, Global
+host-suffix, firebaseio.com, Global
+host-suffix, flutter.dev, Global
 host-suffix, g.co, Global
+host-suffix, g.page, Global
+host-suffix, gcr.io, Global
+host-suffix, go.dev, Global
+host-suffix, golang.org, Global
 host-suffix, goo.gl, Global
+host-suffix, gstatic.cn, Global
 host-suffix, gstatic.com, Global
+host-suffix, kaggle.com, Global
+host-suffix, material.io, Global
+host-suffix, nest.com, Global
+host-suffix, tenor.com, Global
+host-suffix, tensorflow.org, Global
+host-suffix, waymo.com, Global
+host-suffix, waze.com, Global
+host-suffix, webrtc.org, Global
+host-keyword, appspot, Global
 host-keyword, blogspot, Global
 host-keyword, gmail, Global
 host-keyword, google, Global
+host-keyword, gvt, Global
+host-keyword, recaptcha, Global
+ip-cidr, 74.125.0.0/16, Global
+ip-cidr, 173.194.0.0/16, Global
 
 # > Grok
 host-suffix, grok.com, Global
@@ -229,76 +285,77 @@ host-suffix, x.ai, Global
 
 # > IMDb
 host-suffix, boxofficemojo.com, Global
-host-suffix, imdb, Global
-host-suffix, imdb.com, Global
-host-suffix, imdb.to, Global
-host-suffix, media-imdb.com, Global
+host-keyword, imdb, Global
 
 # > Instagram
-host-suffix, cdninstagram.com, Global
-host-suffix, instagr.am, Global
-host-suffix, instagram.com, Global
+host-keyword, instagram, Global
 
 # > Meta
-host-suffix, accountkit.com, Global
-host-suffix, oculus.com, Global
-host-suffix, oculuscdn.com, Global
 host-suffix, readyatdawn.com, Global
 host-suffix, rocksdb.org, Global
 host-suffix, threads.com, Global
 host-suffix, threads.net, Global
+host-keyword, oculus, Global
 
 # > Microsoft
-host, assets1.xboxlive.com, Global
-host, assets2.xboxlive.com, Global
-host, az416426.vo.msecnd.net, Global
-host, az668014.vo.msecnd.net, Global
 host-suffix, aka.ms, Global
-host-suffix, onedrive.live.com, Global
-host-suffix, streaming.mediaservices.windows.net, Global
+host-suffix, bethesda.net, Global
+host-suffix, bing.com.cn, Global
+host-suffix, bing.net, Global
+host-suffix, live.cn, Global
+host-suffix, live.com, Global
+host-suffix, live.com.au, Global
+host-suffix, live.eu, Global
+host-suffix, live.net, Global
+host-suffix, minecraft.net, Global
+host-suffix, mojang.com, Global
+host-suffix, msn.cn, Global
+host-suffix, msn.com, Global
+host-suffix, msn.com.cn, Global
+host-suffix, msn.com.tw, Global
+host-suffix, msn.net, Global
+host-suffix, nuget.org, Global
+host-suffix, office.com, Global
+host-suffix, office.net, Global
+host-suffix, office365.cn, Global
+host-suffix, office365.com, Global
+host-suffix, onenote.com, Global
+host-suffix, onenote.net, Global
+host-suffix, surface.com, Global
+host-suffix, yammer.com, Global
+host-keyword, 1drv, Global
+host-keyword, azure, Global
+host-keyword, hotmail, Global
+host-keyword, microsoft, Global
+host-keyword, msedge, Global
+host-keyword, onedrive, Global
+host-keyword, outlook, Global
+host-keyword, sharepoint, Global
+host-keyword, skydrive, Global
+host-keyword, skype, Global
+host-keyword, visualstudio, Global
+host-keyword, windows, Global
+host-keyword, xbox, Global
 
 # > Muse
-host-suffix, facebook.com, Global
 host-suffix, meta.ai, Global
-host-suffix, meta.com, Global
 host-suffix, metaaivm.com, Global
 host-suffix, muse.ai, Global
 
-# > OpenAI · ChatGPT / Codex
-# https://help.openai.com/en/articles/9247338
-host-suffix, chat.com, Global
-host-suffix, chatgpt.com, Global
-host-suffix, oaistatic.com, Global
-host-suffix, oaistatsig.com, Global
-host-suffix, oaiusercontent.com, Global
-host-suffix, openai.com, Global
-
-# > OpenAI · API 与 CDN
-host, cdn.openaimerge.com, Global
-host, chat.openai.com.cdn.cloudflare.net, Global
-host, openaiapi-site.azureedge.net, Global
-host, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net, Global
-host, openaicomproductionae4b.blob.core.windows.net, Global
-host, production-openaicom-storage.azureedge.net, Global
-
-# > OpenAI · 共用依赖
-# 登录、验证、客服、支付等，其他服务也会用到
-host, cdn.workos.com, Global
-host, forwarder.workos.com, Global
+# > OpenAI
 host, humb.apple.com, Global
-host, images.workoscdn.com, Global
 host, o207216.ingest.sentry.io, Global
 host, o33249.ingest.sentry.io, Global
 host, rum.browser-intake-datadoghq.com, Global
-host, setup.workos.com, Global
-host, workos.imgix.net, Global
+host-suffix, chat.com, Global
+host-suffix, chatgpt.com, Global
 host-suffix, ct.sendgrid.net, Global
-host-suffix, intercom.io, Global
-host-suffix, intercomcdn.com, Global
-
-# > OpenAI · ChatGPT 语音
-# https://openai.com/chatgpt-voice.json（2026-10-12 核对）
-# 语音走 UDP/3478，出口节点需支持 UDP
+host-suffix, oaistatic.com, Global
+host-suffix, oaistatsig.com, Global
+host-suffix, oaiusercontent.com, Global
+host-keyword, intercom, Global
+host-keyword, openai, Global
+host-keyword, workos, Global
 ip-cidr, 4.151.200.38/32, Global
 ip-cidr, 4.155.146.196/32, Global
 ip-cidr, 4.197.172.116/32, Global
@@ -325,47 +382,57 @@ ip-cidr, 191.233.251.27/32, Global
 
 # > Perplexity
 host, pplx-res.cloudinary.com, Global
-host-suffix, perplexity.ai, Global
 host-suffix, pplx.ai, Global
+host-keyword, perplexity, Global
 
 # > Reddit
 host-suffix, redd.it, Global
-host-suffix, reddit.com, Global
-host-suffix, redditmedia.com, Global
-host-suffix, redditstatic.com, Global
+host-keyword, reddit, Global
 
 # > Reuters 路透社
-host-suffix, reuters.com, Global
-host-suffix, reutersmedia.net, Global
+host-keyword, reuters, Global
 
 # > Signal
-host-suffix, signal.org, Global
+host-suffix, whispersystems.org, Global
+host-keyword, signal, Global
 
 # > Spotify
 host-suffix, pscdn.co, Global
 host-suffix, scdn.co, Global
 host-suffix, spoti.fi, Global
-host-suffix, spotifycdn.com, Global
-host-suffix, spotifycdn.net, Global
-host-keyword, -spotify-, Global
-host-keyword, spotify.com, Global
+host-suffix, spotilocal.com, Global
+host-keyword, spotify, Global
+ip-cidr, 104.154.127.126/32, Global
+ip-cidr, 35.186.224.47/32, Global
 
 # > Steam
-host, gstore.val.manlaxy.com, Global
-host, steambroadcast.akamaized.net, Global
-host, steamcdn-a.akamaihd.net, Global
-host, steamcommunity-a.akamaihd.net, Global
-host, steamstore-a.akamaihd.net, Global
-host, steamusercontent-a.akamaihd.net, Global
-host, steamuserimages-a.akamaihd.net, Global
+host-suffix, csgo.wmsj.cn, Global
+host-suffix, dota2.com, Global
+host-suffix, dota2.wmsj.cn, Global
+host-suffix, f3b7q2p3.ssl.hwcdn.net, Global
+host-suffix, fanatical.com, Global
+host-suffix, humblebundle.com, Global
+host-suffix, playartifact.com, Global
 host-suffix, s.team, Global
-host-suffix, steamcommunity.com, Global
-host-suffix, steamcontent.com, Global
-host-suffix, steamgames.com, Global
-host-suffix, steampowered.com, Global
-host-suffix, steamserver.net, Global
-host-suffix, steamstatic.com, Global
-host-suffix, steamusercontent.com, Global
+host-suffix, st.dl.bscstorage.net, Global
+host-suffix, st.dl.eccdnx.com, Global
+host-suffix, st.dl.pinyuncloud.com, Global
+host-suffix, underlords.com, Global
+host-suffix, valve.net, Global
+host-suffix, valvesoftware.com, Global
+host-keyword, steam, Global
+ip-cidr, 103.10.124.0/23, Global
+ip-cidr, 103.28.54.0/24, Global
+ip-cidr, 146.66.152.0/24, Global
+ip-cidr, 146.66.155.0/24, Global
+ip-cidr, 155.133.224.0/19, Global
+ip-cidr, 162.254.192.0/21, Global
+ip-cidr, 185.25.180.0/22, Global
+ip-cidr, 192.69.96.0/22, Global
+ip-cidr, 205.196.6.0/24, Global
+ip-cidr, 208.64.200.0/22, Global
+ip-cidr, 208.78.164.0/22, Global
+ip-cidr, 45.121.184.0/24, Global
 
 # > Surge
 host-suffix, divineengine.net, Global
@@ -375,15 +442,27 @@ host-suffix, surge.run, Global
 host-suffix, wiki.surge.community, Global
 
 # > Telegram
+host-suffix, graph.org, Global
+host-suffix, legra.ph, Global
+host-suffix, stel.com, Global
 host-suffix, t.me, Global
 host-suffix, tdesktop.com, Global
+host-suffix, telega.one, Global
 host-suffix, telegra.ph, Global
 host-suffix, telesco.pe, Global
+host-suffix, tg.dev, Global
+host-suffix, tx.me, Global
 host-keyword, telegram, Global
+host-keyword, nicegram, Global
+host, api.imem.app, Global
+host, api.swiftgram.app, Global
 ip-cidr, 91.105.192.0/23, Global
-ip-cidr, 91.108.0.0/16, Global
-ip-cidr, 95.161.64.0/20, Global
-ip-cidr, 109.239.140.0/24, Global
+ip-cidr, 91.108.4.0/22, Global
+ip-cidr, 91.108.8.0/22, Global
+ip-cidr, 91.108.12.0/22, Global
+ip-cidr, 91.108.16.0/22, Global
+ip-cidr, 91.108.20.0/22, Global
+ip-cidr, 91.108.56.0/22, Global
 ip-cidr, 149.154.160.0/20, Global
 ip-cidr, 185.76.151.0/24, Global
 ip6-cidr, 2001:67c:4e8::/48, Global
@@ -399,35 +478,23 @@ host-suffix, ipstatp.com, Global
 host-suffix, muscdn.com, Global
 host-suffix, musical.ly, Global
 host-suffix, tik-tokapi.com, Global
-host-suffix, tiktok.com, Global
-host-suffix, tiktokv.com, Global
-host-suffix, tiktokw.us, Global
-host-keyword, tiktokcdn, Global
+host-keyword, tiktok, Global
 
 # > WhatsApp
-host-keyword, whatsapp, Global
-ip-cidr, 50.22.198.204/30, Global
-ip-cidr, 158.85.5.192/27, Global
-ip-cidr, 158.85.46.128/27, Global
 ip-cidr, 158.85.224.160/27, Global
+ip-cidr, 158.85.46.128/27, Global
+ip-cidr, 158.85.5.192/27, Global
 ip-cidr, 173.192.222.160/27, Global
 ip-cidr, 173.192.231.32/27, Global
+ip-cidr, 18.194.0.0/15, Global
 ip-cidr, 184.173.128.0/17, Global
 ip-cidr, 208.43.122.128/27, Global
+ip-cidr, 34.224.0.0/12, Global
+ip-cidr, 50.22.198.204/30, Global
+ip-cidr, 54.242.0.0/15, Global
 
-# > Wikipedia 维基百科
-host-suffix, mediawiki.org, Global
-host-suffix, wikibooks.org, Global
-host-suffix, wikidata.org, Global
-host-suffix, wikileaks.org, Global
-host-suffix, wikimedia.org, Global
-host-suffix, wikinews.org, Global
-host-suffix, wikipedia.org, Global
-host-suffix, wikiquote.org, Global
-host-suffix, wikisource.org, Global
-host-suffix, wikiversity.org, Global
-host-suffix, wikivoyage.org, Global
-host-suffix, wiktionary.org, Global
+# > Wikipedia
+host-keyword, wiki, Global
 
 # > X（Twitter）
 host-suffix, pscp.tv, Global
@@ -435,17 +502,24 @@ host-suffix, t.co, Global
 host-suffix, twimg.com, Global
 host-suffix, twitter.com, Global
 host-suffix, x.com, Global
+ip-cidr, 192.133.76.0/22, Global
+ip-cidr, 199.59.148.0/22, Global
+ip-cidr, 199.96.56.0/21, Global
+ip-cidr, 202.160.128.0/22, Global
+ip-cidr, 209.237.192.0/19, Global
+ip-cidr, 69.195.160.0/19, Global
 
 # > Yahoo
-host-suffix, yahoo.com, Global
+host-keyword, yahoo, Global
 
 # > YouTube
-host-suffix, gvt0.com, Global
-host-suffix, gvt1.com, Global
-host-suffix, gvt2.com, Global
-host-suffix, gvt3.com, Global
+host-suffix, googlevideo.com, Global
+host-suffix, video.google.com, Global
 host-suffix, youtu.be, Global
 host-suffix, yt.be, Global
-host-suffix, yt3.ggpht.com, Global
 host-suffix, ytimg.com, Global
+host-suffix, ggpht.com, Global
 host-keyword, youtube, Global
+ip-cidr, 172.110.32.0/21, Global
+ip-cidr, 216.73.80.0/20, Global
+ip6-cidr, 2620:120:e000::/40, Global

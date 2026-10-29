@@ -5,15 +5,6 @@
 # 增删规则请改 Surge 仓库；GitHub Actions 每天同步到这里。
 # ============================================================
 
-# ============================================================
-# 名称：Domestic.list
-# 说明：国内网站、国内 CDN 与 Apple 服务，直连
-# 策略：DIRECT（直连）
-# 规则：586 条
-# 更新：2026-10-26
-# 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Domestic.list
-# ============================================================
-
 # > 自用 MyList
 host-suffix, 13th.tech, Domestic
 host-suffix, 423down.com, Domestic
@@ -52,7 +43,6 @@ host-keyword, duobao, Domestic
 host-keyword, jdpay, Domestic
 host-keyword, qhimg, Domestic
 host-keyword, vpimg, Domestic
-host-keyword, xiami, Domestic
 host-keyword, xiaomi, Domestic
 
 # > 360
@@ -77,10 +67,6 @@ host-suffix, 58.com, Domestic
 # > Alibaba 阿里巴巴
 host-suffix, 1688.com, Domestic
 host-suffix, aliapp.org, Domestic
-host-suffix, alibaba.com, Domestic
-host-suffix, alibabachengdun.com, Domestic
-host-suffix, alibabacloud.com, Domestic
-host-suffix, alibabausercontent.com, Domestic
 host-suffix, alicloudccp.com, Domestic
 host-suffix, aliexpress.com, Domestic
 host-suffix, aliimg.com, Domestic
@@ -101,19 +87,18 @@ host-suffix, mmstat.com, Domestic
 host-suffix, mxhichina.com, Domestic
 host-suffix, qwen.ai, Domestic
 host-suffix, soku.com, Domestic
-host-suffix, taobao.com, Domestic
-host-suffix, taobaocdn.com, Domestic
 host-suffix, tbcache.com, Domestic
 host-suffix, tbcdn.com, Domestic
 host-suffix, tmall.com, Domestic
 host-suffix, ucweb.com, Domestic
 host-suffix, ykimg.com, Domestic
 host-suffix, youku.com, Domestic
+host-keyword, alibaba, Domestic
+host-keyword, taobao, Domestic
 
 # > Apple
 host, apple.comscoreresearch.com, Domestic
 host-suffix, aaplimg.com, Domestic
-host-suffix, akadns.net, Domestic
 host-suffix, apple-cloudkit.com, Domestic
 host-suffix, apple-dns.net, Domestic
 host-suffix, apple-mapkit.com, Domestic
@@ -140,8 +125,6 @@ ip-cidr, 198.183.17.0/24, Domestic
 ip-cidr, 205.180.175.0/24, Domestic
 
 # > Baidu 百度
-host-suffix, baidu.com, Domestic
-host-suffix, baidustatic.com, Domestic
 host-suffix, bcebos.com, Domestic
 host-suffix, bdimg.com, Domestic
 host-suffix, bdstatic.com, Domestic
@@ -150,6 +133,7 @@ host-suffix, hao123.com, Domestic
 host-suffix, hao123img.com, Domestic
 host-suffix, jomodns.com, Domestic
 host-suffix, yunjiasu-cdn.net, Domestic
+host-keyword, baidu, Domestic
 
 # > Bilibili 哔哩哔哩
 host-suffix, acg.tv, Domestic
@@ -170,8 +154,6 @@ host-suffix, amemv.com, Domestic
 host-suffix, bdxiguaimg.com, Domestic
 host-suffix, bdxiguastatic.com, Domestic
 host-suffix, byted-static.com, Domestic
-host-suffix, bytedance.com, Domestic
-host-suffix, bytedance.net, Domestic
 host-suffix, bytedns.net, Domestic
 host-suffix, bytednsdoc.com, Domestic
 host-suffix, bytegoofy.com, Domestic
@@ -179,36 +161,23 @@ host-suffix, byteimg.com, Domestic
 host-suffix, bytescm.com, Domestic
 host-suffix, bytetos.com, Domestic
 host-suffix, bytexservice.com, Domestic
-host-suffix, douyin.com, Domestic
-host-suffix, douyincdn.com, Domestic
-host-suffix, douyinpic.com, Domestic
-host-suffix, douyinstatic.com, Domestic
-host-suffix, douyinvod.com, Domestic
 host-suffix, feiliao.com, Domestic
 host-suffix, gifshow.com, Domestic
 host-suffix, huoshan.com, Domestic
 host-suffix, huoshanzhibo.com, Domestic
 host-suffix, ibytedapm.com, Domestic
-host-suffix, iesdouyin.com, Domestic
 host-suffix, ixigua.com, Domestic
 host-suffix, kspkg.com, Domestic
 host-suffix, pstatp.com, Domestic
 host-suffix, snssdk.com, Domestic
-host-suffix, toutiao.com, Domestic
-host-suffix, toutiao13.com, Domestic
-host-suffix, toutiaoapi.com, Domestic
-host-suffix, toutiaocdn.com, Domestic
-host-suffix, toutiaocdn.net, Domestic
-host-suffix, toutiaocloud.com, Domestic
-host-suffix, toutiaohao.com, Domestic
-host-suffix, toutiaohao.net, Domestic
-host-suffix, toutiaoimg.com, Domestic
-host-suffix, toutiaopage.com, Domestic
 host-suffix, wukong.com, Domestic
 host-suffix, zijieapi.com, Domestic
 host-suffix, zijieimg.com, Domestic
 host-suffix, zjbyte.com, Domestic
 host-suffix, zjcdn.com, Domestic
+host-keyword, bytedance, Domestic
+host-keyword, douyin, Domestic
+host-keyword, toutiao, Domestic
 
 # > CCTV 央视
 host-suffix, cctv.com, Domestic
@@ -229,11 +198,8 @@ host-suffix, udache.com, Domestic
 
 # > Douyu 斗鱼
 host-suffix, bytefcdnrd.com, Domestic
-host-suffix, douyu.com, Domestic
-host-suffix, douyu.tv, Domestic
-host-suffix, douyuscdn.com, Domestic
-host-suffix, douyutv.com, Domestic
 host-suffix, edgesrv.com, Domestic
+host-keyword, douyu, Domestic
 
 # > Epic Games
 host-suffix, epicgames.com, Domestic
@@ -243,30 +209,20 @@ host-suffix, paragon.com, Domestic
 host-suffix, unrealengine.com, Domestic
 
 # > HeyTap 欢太（OPPO）
-host-suffix, allawnfs.com, Domestic
-host-suffix, allawno.com, Domestic
-host-suffix, allawntech.com, Domestic
 host-suffix, coloros.com, Domestic
-host-suffix, heytap.com, Domestic
-host-suffix, heytapcs.com, Domestic
-host-suffix, heytapdownload.com, Domestic
-host-suffix, heytapimage.com, Domestic
-host-suffix, heytapmobi.com, Domestic
-host-suffix, oppo.com, Domestic
-host-suffix, oppoer.me, Domestic
-host-suffix, oppomobile.com, Domestic
+host-keyword, allawn, Domestic
+host-keyword, heytap, Domestic
+host-keyword, oppo, Domestic
 
 # > Huawei 华为
 host-suffix, dbankcdn.com, Domestic
 host-suffix, hc-cdn.com, Domestic
 host-suffix, hicloud.com, Domestic
 host-suffix, hihonor.com, Domestic
-host-suffix, huawei.com, Domestic
-host-suffix, huaweicloud.com, Domestic
-host-suffix, huaweishop.net, Domestic
 host-suffix, hwccpc.com, Domestic
 host-suffix, vmall.com, Domestic
 host-suffix, vmallres.com, Domestic
+host-keyword, huawei, Domestic
 
 # > iFlytek 科大讯飞
 host-suffix, iflyink.com, Domestic
@@ -276,12 +232,9 @@ host-suffix, iflytek.com, Domestic
 # > iQIYI 爱奇艺
 host-suffix, 71.am, Domestic
 host-suffix, 71edge.com, Domestic
-host-suffix, iqiyi.com, Domestic
-host-suffix, iqiyipic.com, Domestic
 host-suffix, ppsimg.com, Domestic
-host-suffix, qiyi.com, Domestic
-host-suffix, qiyipic.com, Domestic
 host-suffix, qy.net, Domestic
+host-keyword, qiyi, Domestic
 
 # > JD 京东
 host-suffix, jcloudcs.com, Domestic
@@ -301,17 +254,11 @@ host-suffix, yximgs.com, Domestic
 # > LeTV 乐视
 host-suffix, le.com, Domestic
 host-suffix, lecloud.com, Domestic
-host-suffix, letv.com, Domestic
-host-suffix, letvcloud.com, Domestic
-host-suffix, letvimg.com, Domestic
-host-suffix, letvlive.com, Domestic
-host-suffix, letvstore.com, Domestic
+host-keyword, letv, Domestic
 
 # > Meitu 美图
 host-suffix, meipai.com, Domestic
-host-suffix, meitu.com, Domestic
-host-suffix, meitudata.com, Domestic
-host-suffix, meitustat.com, Domestic
+host-keyword, meitu, Domestic
 
 # > MGTV 芒果 TV
 host-suffix, hitv.com, Domestic
@@ -340,42 +287,20 @@ host-suffix, pptv.com, Domestic
 # > Sina 新浪
 host-suffix, leju.com, Domestic
 host-suffix, miaopai.com, Domestic
-host-suffix, sina.com, Domestic
-host-suffix, sinaapp.com, Domestic
-host-suffix, sinaimg.com, Domestic
 host-suffix, weibo.com, Domestic
 host-suffix, weibocdn.com, Domestic
 host-suffix, xiaoka.tv, Domestic
+host-keyword, sina, Domestic
 
 # > Sohu 搜狐 / Sogou 搜狗
 host-suffix, go2map.com, Domestic
-host-suffix, sogo.com, Domestic
-host-suffix, sogou.com, Domestic
-host-suffix, sogoucdn.com, Domestic
-host-suffix, sohu-inc.com, Domestic
-host-suffix, sohu.com, Domestic
-host-suffix, sohucs.com, Domestic
-host-suffix, sohuno.com, Domestic
-host-suffix, sohurdc.com, Domestic
 host-suffix, v-56.com, Domestic
+host-keyword, sogo, Domestic
+host-keyword, sohu, Domestic
 
 # > Sony 索尼
-host-suffix, playstation.com, Domestic
-host-suffix, playstation.net, Domestic
-host-suffix, playstationnetwork.com, Domestic
-host-suffix, sony.com, Domestic
-host-suffix, sonyentertainmentnetwork.com, Domestic
-
-# > Steam 国内 CDN
-# 国内下载节点，直连
-host, dl.steam.clngaa.com, Domestic
-host, dl.steam.ksyna.com, Domestic
-host, st.dl.bscstorage.net, Domestic
-host, st.dl.eccdnx.com, Domestic
-host, st.dl.pinyuncloud.com, Domestic
-host, steampipe.steamcontent.tnkjmec.com, Domestic
-host, wmsjsteam.com, Domestic
-host-suffix, steamchina.com, Domestic
+host-keyword, playstation, Domestic
+host-keyword, sony, Domestic
 
 # > TeamViewer
 host-suffix, teamviewer.com, Domestic
@@ -395,18 +320,14 @@ host-suffix, idqqimg.com, Domestic
 host-suffix, igamecj.com, Domestic
 host-suffix, myapp.com, Domestic
 host-suffix, myqcloud.com, Domestic
-host-suffix, qq.com, Domestic
-host-suffix, qqmail.com, Domestic
-host-suffix, qqurl.com, Domestic
 host-suffix, smtcdns.com, Domestic
 host-suffix, soso.com, Domestic
-host-suffix, tencent-cloud.net, Domestic
-host-suffix, tencent.com, Domestic
-host-suffix, tencentmind.com, Domestic
 host-suffix, tenpay.com, Domestic
 host-suffix, wechat.com, Domestic
 host-suffix, weixin.com, Domestic
 host-suffix, weiyun.com, Domestic
+host-keyword, qq, Domestic
+host-keyword, tencent, Domestic
 
 # > VIP 唯品会
 host-suffix, appsimg.com, Domestic
@@ -483,7 +404,6 @@ host-suffix, baike.com, Domestic
 host-suffix, biqudu.com, Domestic
 host-suffix, biquge.com, Domestic
 host-suffix, bitauto.com, Domestic
-host-suffix, bosszhipin.com, Domestic
 host-suffix, c-ctrip.com, Domestic
 host-suffix, camera360.com, Domestic
 host-suffix, cdnmama.com, Domestic
@@ -509,8 +429,6 @@ host-suffix, dangdang.com, Domestic
 host-suffix, dfcfw.com, Domestic
 host-suffix, dianping.com, Domestic
 host-suffix, dilidili.wang, Domestic
-host-suffix, douban.com, Domestic
-host-suffix, doubanio.com, Domestic
 host-suffix, dpfile.com, Domestic
 host-suffix, duowan.com, Domestic
 host-suffix, dxycdn.com, Domestic
@@ -528,8 +446,6 @@ host-suffix, fengkongcloud.com, Domestic
 host-suffix, fir.im, Domestic
 host-suffix, frdic.com, Domestic
 host-suffix, fresh-ideas.cc, Domestic
-host-suffix, ganji.com, Domestic
-host-suffix, ganjistatic1.com, Domestic
 host-suffix, geetest.com, Domestic
 host-suffix, geilicdn.com, Domestic
 host-suffix, ghpym.com, Domestic
@@ -545,8 +461,6 @@ host-suffix, huajiao.com, Domestic
 host-suffix, hupu.com, Domestic
 host-suffix, huxiucdn.com, Domestic
 host-suffix, huya.com, Domestic
-host-suffix, ifeng.com, Domestic
-host-suffix, ifengimg.com, Domestic
 host-suffix, images-amazon.com, Domestic
 host-suffix, infzm.com, Domestic
 host-suffix, ipip.net, Domestic
@@ -554,9 +468,6 @@ host-suffix, it168.com, Domestic
 host-suffix, ithome.com, Domestic
 host-suffix, ixdzs.com, Domestic
 host-suffix, jianguoyun.com, Domestic
-host-suffix, jianshu.com, Domestic
-host-suffix, jianshu.io, Domestic
-host-suffix, jianshuapi.com, Domestic
 host-suffix, jiathis.com, Domestic
 host-suffix, jmstatic.com, Domestic
 host-suffix, jumei.com, Domestic
@@ -569,27 +480,14 @@ host-suffix, kuaidi100.com, Domestic
 host-suffix, kugou.com, Domestic
 host-suffix, lancdns.com, Domestic
 host-suffix, landiannews.com, Domestic
-host-suffix, lanzou.com, Domestic
-host-suffix, lanzoui.com, Domestic
-host-suffix, lanzoux.com, Domestic
 host-suffix, letitfly.me, Domestic
-host-suffix, lizhi.fm, Domestic
-host-suffix, lizhi.io, Domestic
-host-suffix, lizhifm.com, Domestic
 host-suffix, luoo.net, Domestic
 host-suffix, lvmama.com, Domestic
 host-suffix, lxdns.com, Domestic
 host-suffix, maoyan.com, Domestic
 host-suffix, meilishuo.com, Domestic
-host-suffix, meituan.com, Domestic
-host-suffix, meituan.net, Domestic
 host-suffix, meizu.com, Domestic
-host-suffix, migucloud.com, Domestic
-host-suffix, miguvideo.com, Domestic
 host-suffix, mobike.com, Domestic
-host-suffix, mogu.com, Domestic
-host-suffix, mogucdn.com, Domestic
-host-suffix, mogujie.com, Domestic
 host-suffix, moji.com, Domestic
 host-suffix, moke.com, Domestic
 host-suffix, msstatic.com, Domestic
@@ -604,20 +502,13 @@ host-suffix, oschina.net, Domestic
 host-suffix, ourdvs.com, Domestic
 host-suffix, polyv.net, Domestic
 host-suffix, qbox.me, Domestic
-host-suffix, qcloud.com, Domestic
-host-suffix, qcloudcdn.com, Domestic
 host-suffix, qdaily.com, Domestic
 host-suffix, qdmm.com, Domestic
 host-suffix, qianqian.com, Domestic
 host-suffix, qidian.com, Domestic
 host-suffix, qihucdn.com, Domestic
 host-suffix, qin.io, Domestic
-host-suffix, qiniu.com, Domestic
-host-suffix, qiniucdn.com, Domestic
-host-suffix, qiniudn.com, Domestic
 host-suffix, qiushibaike.com, Domestic
-host-suffix, qunar.com, Domestic
-host-suffix, qunarzz.com, Domestic
 host-suffix, realme.com, Domestic
 host-suffix, repaik.com, Domestic
 host-suffix, ruguoapp.com, Domestic
@@ -636,8 +527,6 @@ host-suffix, suning.com, Domestic
 host-suffix, synology.com, Domestic
 host-suffix, taihe.com, Domestic
 host-suffix, th-sjy.com, Domestic
-host-suffix, tianqi.com, Domestic
-host-suffix, tianqistatic.com, Domestic
 host-suffix, tianyancha.com, Domestic
 host-suffix, tianyaui.com, Domestic
 host-suffix, tietuku.com, Domestic
@@ -646,8 +535,6 @@ host-suffix, tmiaoo.com, Domestic
 host-suffix, trip.com, Domestic
 host-suffix, ttmeiju.com, Domestic
 host-suffix, tudou.com, Domestic
-host-suffix, tuniu.com, Domestic
-host-suffix, tuniucdn.com, Domestic
 host-suffix, umengcloud.com, Domestic
 host-suffix, upyun.com, Domestic
 host-suffix, uxengine.net, Domestic
@@ -657,8 +544,6 @@ host-suffix, wandoujia.com, Domestic
 host-suffix, weather.com, Domestic
 host-suffix, weico.cc, Domestic
 host-suffix, weidian.com, Domestic
-host-suffix, weiphone.com, Domestic
-host-suffix, weiphone.net, Domestic
 host-suffix, womai.com, Domestic
 host-suffix, wscdns.com, Domestic
 host-suffix, xdrig.com, Domestic
@@ -687,9 +572,21 @@ host-suffix, zhanqi.tv, Domestic
 host-suffix, zhaopin.com, Domestic
 host-suffix, zhihu.com, Domestic
 host-suffix, zhimg.com, Domestic
-host-suffix, zhipin.com, Domestic
 host-suffix, zhongsou.com, Domestic
 host-suffix, zhuihd.com, Domestic
-
-# > 其他
-host-suffix, qrstuvwxyzab.com, Domestic
+host-keyword, douban, Domestic
+host-keyword, ganji, Domestic
+host-keyword, ifeng, Domestic
+host-keyword, jianshu, Domestic
+host-keyword, lanzou, Domestic
+host-keyword, lizhi, Domestic
+host-keyword, meituan, Domestic
+host-keyword, migu, Domestic
+host-keyword, mogu, Domestic
+host-keyword, qcloud, Domestic
+host-keyword, qiniu, Domestic
+host-keyword, qunar, Domestic
+host-keyword, tianqi, Domestic
+host-keyword, tuniu, Domestic
+host-keyword, weiphone, Domestic
+host-keyword, zhipin, Domestic
