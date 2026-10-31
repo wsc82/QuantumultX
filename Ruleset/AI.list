@@ -1,0 +1,75 @@
+# ============================================================
+# 自动生成，请勿手工修改。
+# 由 scripts/surge_to_qx.py 从 wsc82/Surge 转换而来：
+# https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/AI.list
+# 增删规则请改 Surge 仓库；GitHub Actions 每天同步到这里。
+# ============================================================
+
+# > Cursor
+host-suffix, vercel-storage.com, AI
+host-keyword, cursor, AI
+
+# > Grok
+host-suffix, grok.com, AI
+host-suffix, x.ai, AI
+
+# > Muse
+host-suffix, meta.ai, AI
+host-suffix, metaaivm.com, AI
+host-suffix, muse.ai, AI
+
+# > OpenAI
+host, humb.apple.com, AI
+host, o207216.ingest.sentry.io, AI
+host, o33249.ingest.sentry.io, AI
+host, rum.browser-intake-datadoghq.com, AI
+host-suffix, chat.com, AI
+host-suffix, chatgpt.com, AI
+host-suffix, ct.sendgrid.net, AI
+host-suffix, oaistatic.com, AI
+host-suffix, oaistatsig.com, AI
+host-suffix, oaiusercontent.com, AI
+host-keyword, intercom, AI
+host-keyword, openai, AI
+host-keyword, workos, AI
+ip-cidr, 4.151.200.38/32, AI
+ip-cidr, 4.155.146.196/32, AI
+ip-cidr, 4.197.172.116/32, AI
+ip-cidr, 4.217.235.100/32, AI
+ip-cidr, 4.245.198.13/32, AI
+ip-cidr, 13.71.25.29/32, AI
+ip-cidr, 20.74.221.21/32, AI
+ip-cidr, 20.162.96.163/32, AI
+ip-cidr, 20.168.48.117/32, AI
+ip-cidr, 20.184.36.134/32, AI
+ip-cidr, 20.203.144.245/32, AI
+ip-cidr, 40.118.236.137/32, AI
+ip-cidr, 51.4.112.173/32, AI
+ip-cidr, 52.143.181.161/32, AI
+ip-cidr, 68.155.152.41/32, AI
+ip-cidr, 72.146.20.246/32, AI
+ip-cidr, 74.248.148.7/32, AI
+ip-cidr, 102.37.57.54/32, AI
+ip-cidr, 135.220.40.201/32, AI
+ip-cidr, 172.203.39.49/32, AI
+ip-cidr, 172.207.173.200/32, AI
+ip-cidr, 172.214.226.198/32, AI
+ip-cidr, 191.233.251.27/32, AI
+
+# > Perplexity
+host, pplx-res.cloudinary.com, AI
+host-suffix, pplx.ai, AI
+host-keyword, perplexity, AI
+
+# > X（Twitter）
+host-suffix, pscp.tv, AI
+host-suffix, t.co, AI
+host-suffix, twimg.com, AI
+host-suffix, twitter.com, AI
+host-suffix, x.com, AI
+ip-cidr, 192.133.76.0/22, AI
+ip-cidr, 199.59.148.0/22, AI
+ip-cidr, 199.96.56.0/21, AI
+ip-cidr, 202.160.128.0/22, AI
+ip-cidr, 209.237.192.0/19, AI
+ip-cidr, 69.195.160.0/19, AI

@@ -16,6 +16,7 @@ The lists converted here are:
 - https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/ApplePush.list
 - https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/YouTube.list
 - https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Telegram.list
+- https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/AI.list
 """
 
 from __future__ import annotations
@@ -99,6 +100,12 @@ LISTS = (
         "policy": "Telegram",
         "source": "https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Telegram.list",
         "output": ROOT / "Ruleset" / "Telegram.list",
+    },
+    {
+        "name": "AI",
+        "policy": "AI",
+        "source": "https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/AI.list",
+        "output": ROOT / "Ruleset" / "AI.list",
     },
 )
 
