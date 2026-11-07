@@ -13,6 +13,9 @@ host-keyword, cursor, AI
 host-suffix, grok.com, AI
 host-suffix, x.ai, AI
 
+# > Hermes
+host-suffix, nousresearch.com, AI
+
 # > Muse
 host-suffix, meta.ai, AI
 host-suffix, metaaivm.com, AI

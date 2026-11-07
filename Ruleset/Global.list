@@ -162,6 +162,9 @@ host-keyword, python, Global
 host-suffix, vercel-storage.com, Global
 host-keyword, cursor, Global
 
+# > Discord
+host-keyword, discord, Global
+
 # > Dropbox
 host-suffix, db.tt, Global
 host-suffix, paper-attachments.s3.amazonaws.com, Global
