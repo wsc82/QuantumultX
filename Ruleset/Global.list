@@ -149,6 +149,13 @@ host-keyword, uk-live, Global
 # > Bitwarden
 host-keyword, bitwarden, Global
 
+# > Claude
+host-suffix, anthropic.com, Global
+host-suffix, clau.de, Global
+host-suffix, claude.ai, Global
+host-suffix, claude.com, Global
+host-suffix, claudeusercontent.com, Global
+
 # > Coder 开发 / 编程
 host-suffix, comfy.org, Global
 host-suffix, hf.co, Global

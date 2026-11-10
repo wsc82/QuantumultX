@@ -5,6 +5,13 @@
 # 增删规则请改 Surge 仓库；GitHub Actions 每天同步到这里。
 # ============================================================
 
+# > Claude
+host-suffix, anthropic.com, AI
+host-suffix, clau.de, AI
+host-suffix, claude.ai, AI
+host-suffix, claude.com, AI
+host-suffix, claudeusercontent.com, AI
+
 # > Cursor
 host-suffix, vercel-storage.com, AI
 host-keyword, cursor, AI
