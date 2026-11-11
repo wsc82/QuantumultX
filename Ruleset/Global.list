@@ -23,6 +23,7 @@ host-suffix, amysecure.com, Global
 host-suffix, ap.org, Global
 host-suffix, api.onesignal.com, Global
 host-suffix, apnews.com, Global
+host-suffix, arena.ai, Global
 host-suffix, avbebe.com, Global
 host-suffix, bandwagonhost.com, Global
 host-suffix, bet365.com, Global
@@ -151,10 +152,16 @@ host-keyword, bitwarden, Global
 
 # > Claude
 host-suffix, anthropic.com, Global
-host-suffix, clau.de, Global
 host-suffix, claude.ai, Global
 host-suffix, claude.com, Global
+host-suffix, clau.de, Global
+host-suffix, claudemcpclient.com, Global
+host-suffix, claudemcpcontent.com, Global
 host-suffix, claudeusercontent.com, Global
+host, anthropic.auth0.com, Global
+host, anthropic.com.cdn.cloudflare.net, Global
+host, anthropic-com.ghost.io, Global
+host, servd-anthropic-website.b-cdn.net, Global
 
 # > Coder 开发 / 编程
 host-suffix, comfy.org, Global
@@ -166,8 +173,8 @@ host-keyword, pypi, Global
 host-keyword, python, Global
 
 # > Cursor
-host-suffix, vercel-storage.com, Global
-host-keyword, cursor, Global
+host-suffix, cursor.com, Global
+host-suffix, cursor-cdn.com, Global
 
 # > Discord
 host-keyword, discord, Global
@@ -292,7 +299,12 @@ ip-cidr, 173.194.0.0/16, Global
 
 # > Grok
 host-suffix, grok.com, Global
+host-suffix, grokipedia.com, Global
+host-suffix, grokusercontent.com, Global
 host-suffix, x.ai, Global
+
+# > Hermes
+host-suffix, nousresearch.com, Global
 
 # > IMDb
 host-suffix, boxofficemojo.com, Global
@@ -353,43 +365,20 @@ host-suffix, meta.ai, Global
 host-suffix, metaaivm.com, Global
 host-suffix, muse.ai, Global
 
-# > OpenAI
-host, humb.apple.com, Global
-host, o207216.ingest.sentry.io, Global
-host, o33249.ingest.sentry.io, Global
-host, rum.browser-intake-datadoghq.com, Global
+# > ChatGPT
 host-suffix, chat.com, Global
 host-suffix, chatgpt.com, Global
-host-suffix, ct.sendgrid.net, Global
+host-suffix, livekit.cloud, Global
 host-suffix, oaistatic.com, Global
-host-suffix, oaistatsig.com, Global
 host-suffix, oaiusercontent.com, Global
-host-keyword, intercom, Global
-host-keyword, openai, Global
-host-keyword, workos, Global
-ip-cidr, 4.151.200.38/32, Global
-ip-cidr, 4.155.146.196/32, Global
-ip-cidr, 4.197.172.116/32, Global
-ip-cidr, 4.217.235.100/32, Global
-ip-cidr, 4.245.198.13/32, Global
-ip-cidr, 13.71.25.29/32, Global
-ip-cidr, 20.74.221.21/32, Global
-ip-cidr, 20.162.96.163/32, Global
-ip-cidr, 20.168.48.117/32, Global
-ip-cidr, 20.184.36.134/32, Global
-ip-cidr, 20.203.144.245/32, Global
-ip-cidr, 40.118.236.137/32, Global
-ip-cidr, 51.4.112.173/32, Global
-ip-cidr, 52.143.181.161/32, Global
-ip-cidr, 68.155.152.41/32, Global
-ip-cidr, 72.146.20.246/32, Global
-ip-cidr, 74.248.148.7/32, Global
-ip-cidr, 102.37.57.54/32, Global
-ip-cidr, 135.220.40.201/32, Global
-ip-cidr, 172.203.39.49/32, Global
-ip-cidr, 172.207.173.200/32, Global
-ip-cidr, 172.214.226.198/32, Global
-ip-cidr, 191.233.251.27/32, Global
+host-suffix, openai.com, Global
+host-suffix, sora.com, Global
+host, api.statsig.com, Global
+host, api-iam.intercom.io, Global
+host, o33249.ingest.sentry.io, Global
+host, openaiapi-site.azureedge.net, Global
+host-keyword, openaiapi, Global
+host-keyword, openaicom, Global
 
 # > Perplexity
 host, pplx-res.cloudinary.com, Global

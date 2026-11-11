@@ -5,6 +5,17 @@
 # 增删规则请改 Surge 仓库；GitHub Actions 每天同步到这里。
 # ============================================================
 
+# > Cursor
+host-suffix, cursor.sh, Domestic
+host-suffix, cursorvm.com, Domestic
+
+# > MyList
+host-suffix, bdurl.net, Domestic
+host-suffix, bytedance.com, Domestic
+host-suffix, doubao.com, Domestic
+host-suffix, snssdk.com, Domestic
+host-suffix, zijieapi.com, Domestic
+
 # > 自用 MyList
 host-suffix, 13th.tech, Domestic
 host-suffix, 423down.com, Domestic
@@ -39,7 +50,6 @@ host-keyword, baidupcs, Domestic
 host-keyword, bilibili, Domestic
 host-keyword, ccgslb, Domestic
 host-keyword, chinacache, Domestic
-host-keyword, duobao, Domestic
 host-keyword, jdpay, Domestic
 host-keyword, qhimg, Domestic
 host-keyword, vpimg, Domestic
@@ -128,7 +138,6 @@ ip-cidr, 205.180.175.0/24, Domestic
 host-suffix, bcebos.com, Domestic
 host-suffix, bdimg.com, Domestic
 host-suffix, bdstatic.com, Domestic
-host-suffix, bdurl.net, Domestic
 host-suffix, hao123.com, Domestic
 host-suffix, hao123img.com, Domestic
 host-suffix, jomodns.com, Domestic
@@ -169,13 +178,10 @@ host-suffix, ibytedapm.com, Domestic
 host-suffix, ixigua.com, Domestic
 host-suffix, kspkg.com, Domestic
 host-suffix, pstatp.com, Domestic
-host-suffix, snssdk.com, Domestic
 host-suffix, wukong.com, Domestic
-host-suffix, zijieapi.com, Domestic
 host-suffix, zijieimg.com, Domestic
 host-suffix, zjbyte.com, Domestic
 host-suffix, zjcdn.com, Domestic
-host-keyword, bytedance, Domestic
 host-keyword, douyin, Domestic
 host-keyword, toutiao, Domestic
 
