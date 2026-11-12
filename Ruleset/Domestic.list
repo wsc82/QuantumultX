@@ -5,10 +5,6 @@
 # 增删规则请改 Surge 仓库；GitHub Actions 每天同步到这里。
 # ============================================================
 
-# > Cursor
-host-suffix, cursor.sh, Domestic
-host-suffix, cursorvm.com, Domestic
-
 # > MyList
 host-suffix, bdurl.net, Domestic
 host-suffix, bytedance.com, Domestic

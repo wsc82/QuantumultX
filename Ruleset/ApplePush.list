@@ -5,8 +5,9 @@
 # 增删规则请改 Surge 仓库；GitHub Actions 每天同步到这里。
 # ============================================================
 
-# > Apple Push 推送
+# > Apple Push
 host-suffix, apple.com.edgekey.net, ApplePush
+host-suffix, courier-push-apple.com.akadns.net, ApplePush
 host-suffix, push-apple.com.akadns.net, ApplePush
 host-suffix, push.apple.com, ApplePush
 ip-cidr, 17.57.144.0/22, ApplePush

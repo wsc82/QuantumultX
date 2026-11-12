@@ -7,37 +7,6 @@
 
 host-suffix, arena.ai, AI
 
-# > Claude
-host-suffix, anthropic.com, AI
-host-suffix, claude.ai, AI
-host-suffix, claude.com, AI
-host-suffix, clau.de, AI
-host-suffix, claudemcpclient.com, AI
-host-suffix, claudemcpcontent.com, AI
-host-suffix, claudeusercontent.com, AI
-host, anthropic.auth0.com, AI
-host, anthropic.com.cdn.cloudflare.net, AI
-host, anthropic-com.ghost.io, AI
-host, servd-anthropic-website.b-cdn.net, AI
-
-# > Cursor
-host-suffix, cursor.com, AI
-host-suffix, cursor-cdn.com, AI
-
-# > Grok
-host-suffix, grok.com, AI
-host-suffix, grokipedia.com, AI
-host-suffix, grokusercontent.com, AI
-host-suffix, x.ai, AI
-
-# > Hermes
-host-suffix, nousresearch.com, AI
-
-# > Muse
-host-suffix, meta.ai, AI
-host-suffix, metaaivm.com, AI
-host-suffix, muse.ai, AI
-
 # > ChatGPT
 host-suffix, chat.com, AI
 host-suffix, chatgpt.com, AI
@@ -53,20 +22,46 @@ host, openaiapi-site.azureedge.net, AI
 host-keyword, openaiapi, AI
 host-keyword, openaicom, AI
 
+# > Claude
+host-suffix, anthropic.com, AI
+host-suffix, claude.ai, AI
+host-suffix, claude.com, AI
+host-suffix, clau.de, AI
+host-suffix, claudemcpclient.com, AI
+host-suffix, claudemcpcontent.com, AI
+host-suffix, claudeusercontent.com, AI
+host, anthropic.auth0.com, AI
+host, anthropic.com.cdn.cloudflare.net, AI
+host, anthropic-com.ghost.io, AI
+host, servd-anthropic-website.b-cdn.net, AI
+
+# > Cursor
+host, accounts.spacex.ai, AI
+host, anysphere-binaries.s3.us-east-1.amazonaws.com, AI
+host-suffix, cursor-cdn.com, AI
+host-suffix, cursor.com, AI
+host-suffix, cursor.sh, AI
+host-suffix, cursorapi.com, AI
+host-suffix, cursorvm.com, AI
+
+# > Grok
+host-suffix, grok.com, AI
+host-suffix, grokipedia.com, AI
+host-suffix, grokusercontent.com, AI
+host-suffix, x.ai, AI
+
+# > Hermes
+host-suffix, nousresearch.com, AI
+
+# > Muse
+host-suffix, meta.ai, AI
+host-suffix, metaaivm.com, AI
+host-suffix, muse.ai, AI
+
+# > OpenRouter
+host-suffix, openrouter.ai, AI
+
 # > Perplexity
 host, pplx-res.cloudinary.com, AI
 host-suffix, pplx.ai, AI
 host-keyword, perplexity, AI
-
-# > X（Twitter）
-host-suffix, pscp.tv, AI
-host-suffix, t.co, AI
-host-suffix, twimg.com, AI
-host-suffix, twitter.com, AI
-host-suffix, x.com, AI
-ip-cidr, 192.133.76.0/22, AI
-ip-cidr, 199.59.148.0/22, AI
-ip-cidr, 199.96.56.0/21, AI
-ip-cidr, 202.160.128.0/22, AI
-ip-cidr, 209.237.192.0/19, AI
-ip-cidr, 69.195.160.0/19, AI
