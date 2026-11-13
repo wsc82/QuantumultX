@@ -11,18 +11,11 @@
 host-suffix, arena.ai, Global
 
 # > ChatGPT
-host-suffix, chat.com, Global
+host, o33249.ingest.us.sentry.io, Global
 host-suffix, chatgpt.com, Global
-host-suffix, livekit.cloud, Global
+host-suffix, hcaptcha.com, Global
 host-suffix, oaistatic.com, Global
-host-suffix, oaiusercontent.com, Global
 host-suffix, openai.com, Global
-host-suffix, sora.com, Global
-host, api.statsig.com, Global
-host, api-iam.intercom.io, Global
-host, o33249.ingest.sentry.io, Global
-host-keyword, openaiapi, Global
-host-keyword, openaicom, Global
 
 # > Claude
 host-suffix, anthropic.com, Global

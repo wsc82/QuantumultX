@@ -8,19 +8,11 @@
 host-suffix, arena.ai, AI
 
 # > ChatGPT
-host-suffix, chat.com, AI
+host, o33249.ingest.us.sentry.io, AI
 host-suffix, chatgpt.com, AI
-host-suffix, livekit.cloud, AI
+host-suffix, hcaptcha.com, AI
 host-suffix, oaistatic.com, AI
-host-suffix, oaiusercontent.com, AI
 host-suffix, openai.com, AI
-host-suffix, sora.com, AI
-host, api.statsig.com, AI
-host, api-iam.intercom.io, AI
-host, o33249.ingest.sentry.io, AI
-host, openaiapi-site.azureedge.net, AI
-host-keyword, openaiapi, AI
-host-keyword, openaicom, AI
 
 # > Claude
 host-suffix, anthropic.com, AI
